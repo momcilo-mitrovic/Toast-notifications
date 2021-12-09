@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toast Notifications</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="toast-wrapper">
+      <div id="toast">
+        <div class="container-1">
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="container-2">
+          <p>Nice</p>
+          <p>Your changes have been saved</p>
+        </div>
+        <button id="close" onclick="closeToast()">&times;</button>
+      </div>
+    </div>
+    <button id="show-toast" onclick="showToast()">Show Toast Message</button>
+    <script src="toast.js"></script>
+  </body>
+</html>
